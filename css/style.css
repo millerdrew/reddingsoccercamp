@@ -1,0 +1,153 @@
+h1, h2 {
+  font-family: 'Bowlby One', cursive;
+  text-align: center;
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+header {
+  font-family: 'Bowlby One', cursive;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: red;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+}
+
+.title { 
+  font-size: 3rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+}
+
+.subtitle {
+  
+}
+
+hr {
+  border-width: 1px 0 0;
+  border-style: dashed;
+  border-color: #e3ae24;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #d93434;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.panel {
+  background: #f2f2f2;
+  border: solid 1px #e6e6e6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subpanel {
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.menu {
+  flex: 1;
+  padding-right: 2rem;
+  font-family: 'Bowlby One', cursive;
+}
+
+.menu ul {
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.main {
+  justify-content: stretch;
+  flex: 4;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.main input {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  
+  .title {
+    margin-top: 0rem;
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+  
+  header {
+    margin-bottom: 0rem;
+  }
+  
+  .container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .main {
+    padding: 0rem;
+  }
+  
+  h2 {
+    font-size: 1rem;
+  }
+  
+}
